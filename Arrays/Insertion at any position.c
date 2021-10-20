@@ -27,7 +27,6 @@ int main()
     printf("\nEnter new value to be inserted: ");
     scanf("%d",&newValue);
     
-    //shift all values from the insert index till the end to the right
     //!!!shift from the END to the required position to prevent values being overridden!!!
     for(i=size+1;i>=insertPosition-1;i--){ 
         
