@@ -32,7 +32,7 @@ int main()
         }    
     }
     
-    for(i=deletePosition;i<size-1;i++){ //size-1 as i<size will create with a[i] = a[i+1] at the last index
+    for(i=deletePosition;i<size-1;i++){ //size-1 as i<size will create issue with a[i] = a[i+1] at the last index
         array[i]=array[i+1];
     }
     
