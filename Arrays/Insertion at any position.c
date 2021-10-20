@@ -1,4 +1,4 @@
-//Insertion in Array
+//Insertion at any position in Array
 /*
 Notes:
 
