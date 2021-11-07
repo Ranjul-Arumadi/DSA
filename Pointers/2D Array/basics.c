@@ -1,5 +1,18 @@
 #include <stdio.h>
+/*
+Basic : 
 
+2d arrays are array of arrays.
+
+a[2][2] = {1,2,3,4};
+
+here {{1,2},{3,4}}
+      arr 1,arr 2
+so  a = a[0],a[1]
+
+so a[1]+1 = {3,4}+1 =  4 
+
+*/
 int main(void) {
   int a[2][2]={1,2,3,4};
 
